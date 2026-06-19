@@ -1,0 +1,3170 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>热门精选-精选电影-高清电影片库-高清电影免费在线观看</title>
+    <meta name="description" content="从多类型电影中精选人气作品，适合快速发现近期值得观看的影片。精选电影免费在线观看，提供影片简介、年份、地区、标签与详情页入口。">
+    <meta name="keywords" content="精选电影,高清电影片库,电影观看,热门影片,高分电影,电影合集,在线电影,热门精选,电影分类">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar" aria-label="主导航">
+                <a class="logo" href="index.html" aria-label="精选电影">
+                    <span class="logo-mark">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M5 4.5h14a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-11a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="m10 9 5 3-5 3V9Z" fill="currentColor"/>
+                        </svg>
+                    </span>
+                    <span>
+                        <span class="logo-title">精选电影</span>
+                        <span class="logo-subtitle">高清电影片库</span>
+                    </span>
+                </a>
+                <div class="nav-links">
+                <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="ranking.html">排行榜</a>
+                <a class="nav-link active" href="category-hot-picks.html">热门精选</a>
+                <a class="nav-link" href="category-high-score.html">高分片库</a>
+                <a class="nav-link" href="category-new-release.html">新片速递</a>
+                <a class="nav-link" href="category-classic-cinema.html">经典电影</a>
+                <a class="nav-link" href="category-action-zone.html">动作大片</a>
+                <a class="nav-link" href="category-romance-story.html">爱情故事</a>
+                </div>
+                <button class="menu-toggle" type="button" data-menu-toggle aria-label="菜单" aria-expanded="false">☰</button>
+            </nav>
+            <div class="mobile-nav" data-mobile-nav>
+                <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="ranking.html">排行榜</a>
+                <a class="nav-link active" href="category-hot-picks.html">热门精选</a>
+                <a class="nav-link" href="category-high-score.html">高分片库</a>
+                <a class="nav-link" href="category-new-release.html">新片速递</a>
+                <a class="nav-link" href="category-classic-cinema.html">经典电影</a>
+                <a class="nav-link" href="category-action-zone.html">动作大片</a>
+                <a class="nav-link" href="category-romance-story.html">爱情故事</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="page-kicker">分类片库</p>
+                <h1 class="page-title">热门精选</h1>
+                <p class="page-desc">从多类型电影中精选人气作品，适合快速发现近期值得观看的影片。</p>
+            </div>
+        </section>
+        <div class="container page-main">
+            <section class="section">
+                <div class="search-box" data-filter-panel data-target="#category-movies-hot-picks" data-empty-target="#category-empty-hot-picks">
+                    <input type="search" data-filter-input placeholder="搜索本分类影片、地区、类型、标签" aria-label="搜索本分类影片">
+                    <select data-sort-select aria-label="排序">
+                    <option value="rating">评分排序</option>
+                    <option value="year">年份排序</option>
+                    <option value="title">标题排序</option>
+                    </select>
+                    <select aria-label="相关分类" onchange="if (this.value) location.href = this.value;">
+                        <option value="">切换分类</option>
+
+                        <option value="category-high-score.html">高分片库</option>
+                        <option value="category-new-release.html">新片速递</option>
+                        <option value="category-classic-cinema.html">经典电影</option>
+                        <option value="category-action-zone.html">动作大片</option>
+                        <option value="category-romance-story.html">爱情故事</option>
+                        <option value="category-mystery-thriller.html">悬疑惊悚</option>
+                        <option value="category-comedy-time.html">喜剧时光</option>
+                        <option value="category-sci-fi-fantasy.html">科幻奇幻</option>
+                        <option value="category-drama-life.html">文艺剧情</option>
+                        <option value="category-family-animation.html">家庭动画</option>
+                        <option value="category-world-cinema.html">环球影展</option>
+                    </select>
+                </div>
+            </section>
+            <section class="section">
+                <div class="section-head">
+                    <div>
+                        <p class="page-kicker">影片列表</p>
+                        <h2 class="section-title">热门精选精选影片</h2>
+                        <p class="section-desc">每张卡片都可进入独立详情页，查看剧情简介并在线播放。</p>
+                    </div>
+                </div>
+                <div class="movie-grid" id="category-movies-hot-picks">
+                <article class="movie-card" data-filter-card data-title="天空中的金星" data-region="韩国" data-year="2022" data-genre="剧情 / 家庭 / 运动" data-tags="棒球 父女 自闭症 励志" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0003.html" aria-label="天空中的金星">
+                        <div class="poster">
+                            <img src="./3.jpg" alt="天空中的金星" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">天空中的金星</h3>
+                            <p class="card-desc">一名被职业棒球界淘汰的投手，成为了一名自闭症女孩的私人教练，而女孩唯一的梦想是站上投手丘。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2022</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="剧集版超能陆战队第一季" data-region="美国" data-year="2025" data-genre="动画, 动作, 科幻" data-tags="超级英雄 机器人 青少年 团队协作" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0018.html" aria-label="剧集版超能陆战队第一季">
+                        <div class="poster">
+                            <img src="./18.jpg" alt="剧集版超能陆战队第一季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">剧集版超能陆战队第一季</h3>
+                            <p class="card-desc">电影结局两年后，小宏在旧京山开设超能诊所，每天处理各种奇葩的“超能意外事故”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="大雄的南海大冒险" data-region="日本" data-year="2024" data-genre="冒险， 动画" data-tags="哆啦A梦 海盗 友情" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-0033.html" aria-label="大雄的南海大冒险">
+                        <div class="poster">
+                            <img src="./33.jpg" alt="大雄的南海大冒险" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">大雄的南海大冒险</h3>
+                            <p class="card-desc">大雄和伙伴们穿越到 18 世纪南海，误打误撞成了被通缉的“义贼海盗团”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2024</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="白色的女人" data-region="日本" data-year="2023" data-genre="恐怖 / 悬疑" data-tags="都市传说 心理恐怖 战后创伤" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-0063.html" aria-label="白色的女人">
+                        <div class="poster">
+                            <img src="./63.jpg" alt="白色的女人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">白色的女人</h3>
+                            <p class="card-desc">一所废弃的战后医院里流传着“白色女人”的传说，据说看到她的人会失去最珍贵的记忆，而真相远比鬼怪更残酷。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2023</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="光棍之家" data-region="中国" data-year="2023" data-genre="喜剧剧情" data-tags="农村 光棍 相亲 荒诞 暖心" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0070.html" aria-label="光棍之家">
+                        <div class="poster">
+                            <img src="./70.jpg" alt="光棍之家" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">光棍之家</h3>
+                            <p class="card-desc">一个全是光棍的村庄，突然来了一个女婚托，结果全村男人决定集体演戏留住她。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2023</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="筑梦2008" data-region="中国大陆" data-year="2023" data-genre="剧情 / 家庭" data-tags="北漂 房地产 中年危机" data-category="热门精选" data-rating="9.2">
+                    <a href="movie-0084.html" aria-label="筑梦2008">
+                        <div class="poster">
+                            <img src="./84.jpg" alt="筑梦2008" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">筑梦2008</h3>
+                            <p class="card-desc">2008年奥运会前夕，一个北京包工头赌上全部身家，却发现梦想的工地即将被拆除。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.2</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="陨石噩梦" data-region="美国" data-year="2026" data-genre="科幻 / 惊悚" data-tags="天灾降临 密室逃生 倒计时" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-0094.html" aria-label="陨石噩梦">
+                        <div class="poster">
+                            <img src="./94.jpg" alt="陨石噩梦" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">陨石噩梦</h3>
+                            <p class="card-desc">一颗陨石击中了市中心的大厦，困在电梯里的五个人必须在氧气耗尽前找到逃生通道。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2026</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="高地营救" data-region="英国" data-year="2024" data-genre="动作, 冒险, 战争" data-tags="苏格兰 狙击手 山地求生 以一敌百 老兵不死" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0106.html" aria-label="高地营救">
+                        <div class="poster">
+                            <img src="./106.jpg" alt="高地营救" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">高地营救</h3>
+                            <p class="card-desc">退役的苏格兰高地狙击手为了救回被绑架的外孙女，利用祖传的狩猎技巧和复杂地形，独自猎杀一整支全副武装的雇佣兵小队。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2024</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="花花世界花家姐粤语" data-region="中国香港" data-year="2023" data-genre="喜剧 / 家庭" data-tags="粤语原声 市井 大姐大 茶餐厅 人情味" data-category="热门精选" data-rating="8.8">
+                    <a href="movie-0137.html" aria-label="花花世界花家姐粤语">
+                        <div class="poster">
+                            <img src="./137.jpg" alt="花花世界花家姐粤语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">花花世界花家姐粤语</h3>
+                            <p class="card-desc">庙街茶餐厅的大姐大花家姐，为了保住亡父留下的老店，被迫和五个拖油瓶“家人”斗智斗勇。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.8</span>
+                                <span>2023</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="希瑞与非凡的公主们第一季" data-region="美国" data-year="2024" data-genre="动画 / 奇幻 / 动作" data-tags="重启经典 女性英雄 魔法少女 友情与背叛" data-category="热门精选" data-rating="7.6">
+                    <a href="movie-0141.html" aria-label="希瑞与非凡的公主们第一季">
+                        <div class="poster">
+                            <img src="./141.jpg" alt="希瑞与非凡的公主们第一季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">希瑞与非凡的公主们第一季</h3>
+                            <p class="card-desc">希瑞找回力量的钥匙不是剑，是原谅那个曾经把她的王国出卖给霍达克的至交好友。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.6</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="烟雾（电影）" data-region="日本" data-year="2017" data-genre="剧情 / 悬疑" data-tags="推理 家族秘密 烟草店 战后创伤" data-category="热门精选" data-rating="7.9">
+                    <a href="movie-0148.html" aria-label="烟雾（电影）">
+                        <div class="poster">
+                            <img src="./148.jpg" alt="烟雾（电影）" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">烟雾（电影）</h3>
+                            <p class="card-desc">乡下烟草店里从不抽烟的老板，每天都会在固定时间用卷烟机做一支烟，然后看着它自然燃尽，直到一位刑警找上门。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.9</span>
+                                <span>2017</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="亚利桑那州的抢劫者" data-region="美国" data-year="2024" data-genre="犯罪 / 西部 / 喜剧" data-tags="银行劫案 乌龙 沙漠 公路 黑色幽默" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-0154.html" aria-label="亚利桑那州的抢劫者">
+                        <div class="poster">
+                            <img src="./4.jpg" alt="亚利桑那州的抢劫者" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">亚利桑那州的抢劫者</h3>
+                            <p class="card-desc">三个倒霉蛋抢劫银行成功，却发现抢到的是当地黑帮的洗钱金库，整个亚利桑那州的黑白两道开始追杀他们。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="闪耀吧！中华文明" data-region="中国大陆" data-year="2025" data-genre="文化, 历史, 真人秀" data-tags="考古 国宝 明星体验 科普 沉浸式" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-0178.html" aria-label="闪耀吧！中华文明">
+                        <div class="poster">
+                            <img src="./28.jpg" alt="闪耀吧！中华文明" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">闪耀吧！中华文明</h3>
+                            <p class="card-desc">六位明星“文明探源员”穿越回六个历史高光时刻，亲手体验古代技术，用沉浸式戏剧还原文明诞生瞬间。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="我的莫格利男孩" data-region="中国大陆" data-year="2024" data-genre="都市 / 爱情" data-tags="森林男孩 环保 都市生存 治愈 反差萌" data-category="热门精选" data-rating="9.9">
+                    <a href="movie-0192.html" aria-label="我的莫格利男孩">
+                        <div class="poster">
+                            <img src="./42.jpg" alt="我的莫格利男孩" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">我的莫格利男孩</h3>
+                            <p class="card-desc">被守林人养大的“野孩子”误入繁华都市，与冷面女高管被迫同居，环保与商战的碰撞一触即发。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.9</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="香蕉船乐团" data-region="美国" data-year="1974" data-genre="儿童, 音乐, 喜剧" data-tags="木偶 儿歌 经典 综艺 怀旧" data-category="热门精选" data-rating="9.4">
+                    <a href="movie-0202.html" aria-label="香蕉船乐团">
+                        <div class="poster">
+                            <img src="./52.jpg" alt="香蕉船乐团" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">香蕉船乐团</h3>
+                            <p class="card-desc">在橘子和香蕉组成的小船上，鳄鱼与各种奇怪木偶一起，用歌舞教会孩子生活常识。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.4</span>
+                                <span>1974</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="凤归梧桐" data-region="中国大陆" data-year="2023" data-genre="古装 / 权斗" data-tags="宫斗 复仇 女性觉醒" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-0211.html" aria-label="凤归梧桐">
+                        <div class="poster">
+                            <img src="./61.jpg" alt="凤归梧桐" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">凤归梧桐</h3>
+                            <p class="card-desc">被打入冷宫七年的废后，靠教鹦鹉说话重获帝王心，却发现皇帝才是她杀父仇人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="美谍入俄记" data-region="俄罗斯" data-year="2024" data-genre="喜剧， 间谍" data-tags="文化冲突 黑色幽默 反转" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0218.html" aria-label="美谍入俄记">
+                        <div class="poster">
+                            <img src="./68.jpg" alt="美谍入俄记" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">美谍入俄记</h3>
+                            <p class="card-desc">一名中情局菜鸟被派往莫斯科当文员，却阴差阳错被俄罗斯人当成传奇间谍“鼹鼠”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2024</span>
+                                <span>俄罗斯</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="树妖" data-region="中国大陆" data-year="2026" data-genre="奇幻惊悚" data-tags="民间怪谈 森林恐怖 女性复仇 视觉奇观" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-0232.html" aria-label="树妖">
+                        <div class="poster">
+                            <img src="./82.jpg" alt="树妖" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">树妖</h3>
+                            <p class="card-desc">伐木工意外唤醒沉睡百年的树妖，她以最温柔的方式，索要最血腥的代价。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="战地情莺" data-region="英国" data-year="2025" data-genre="剧情, 战争, 音乐" data-tags="二战 女歌手 诺曼底 慰军" data-category="热门精选" data-rating="9.2">
+                    <a href="movie-0247.html" aria-label="战地情莺">
+                        <div class="poster">
+                            <img src="./97.jpg" alt="战地情莺" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">战地情莺</h3>
+                            <p class="card-desc">二战期间，一名犹太女歌手被逼为纳粹军官演唱，同时她通过歌曲向盟军传递加密情报。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.2</span>
+                                <span>2025</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="榫卯" data-region="中国大陆" data-year="2019" data-genre="剧情, 家庭" data-tags="古建筑 父子情 文化传承 匠心" data-category="热门精选" data-rating="9.8">
+                    <a href="movie-0251.html" aria-label="榫卯">
+                        <div class="poster">
+                            <img src="./101.jpg" alt="榫卯" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">榫卯</h3>
+                            <p class="card-desc">一对疏离的父子，因一座即将被拆除的明代祠堂，在榫卯的接合中重新咬合彼此的人生。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.8</span>
+                                <span>2019</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="宝马狂想曲" data-region="中国" data-year="2012" data-genre="喜剧, 犯罪, 黑色幽默" data-tags="小人物 连环局 宝马汽车 多线叙事" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0271.html" aria-label="宝马狂想曲">
+                        <div class="poster">
+                            <img src="./121.jpg" alt="宝马狂想曲" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">宝马狂想曲</h3>
+                            <p class="card-desc">一群人为了一辆中奖的宝马车陷入疯狂追逐，最后发现车是借来的。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2012</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="第六感生死缘" data-region="美国" data-year="2025" data-genre="奇幻、爱情、悬疑" data-tags="死神 身份互换 浪漫悲剧 救赎" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0281.html" aria-label="第六感生死缘">
+                        <div class="poster">
+                            <img src="./131.jpg" alt="第六感生死缘" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">第六感生死缘</h3>
+                            <p class="card-desc">死神化身为人间男子，用七天时间体验爱情，却发现自己不想回去了。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="断联" data-region="中国大陆" data-year="2023" data-genre="剧情 / 悬疑" data-tags="网络暴力 心理创伤 身份认同" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-0285.html" aria-label="断联">
+                        <div class="poster">
+                            <img src="./135.jpg" alt="断联" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">断联</h3>
+                            <p class="card-desc">一场直播断联，揭开少女失踪背后的集体谎言与数字幽灵。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="秘杀名单" data-region="中国大陆" data-year="2015" data-genre="谍战、悬疑、历史" data-tags="民国 潜伏 暗杀 国共 双面间谍" data-category="热门精选" data-rating="8.6">
+                    <a href="movie-0292.html" aria-label="秘杀名单">
+                        <div class="poster">
+                            <img src="./142.jpg" alt="秘杀名单" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">秘杀名单</h3>
+                            <p class="card-desc">一份地下党名单落入敌手，代号“夜莺”的特务发现自己的名字赫然在列。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.6</span>
+                                <span>2015</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="凤姐" data-region="中国台湾" data-year="2024" data-genre="剧情 / 犯罪" data-tags="性工作者 社会写实 司法 女性互助 万华" data-category="热门精选" data-rating="7.4">
+                    <a href="movie-0293.html" aria-label="凤姐">
+                        <div class="poster">
+                            <img src="./143.jpg" alt="凤姐" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">凤姐</h3>
+                            <p class="card-desc">台北万华一位年过半百的性工作者阿凤，决定亲手把保护自己三十年的黑道老大送进监狱。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.4</span>
+                                <span>2024</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="疯狂的麦咭第八季" data-region="中国大陆" data-year="2024" data-genre="真人秀" data-tags="密室闯关 明星 冒险 亲子" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-0319.html" aria-label="疯狂的麦咭第八季">
+                        <div class="poster">
+                            <img src="./19.jpg" alt="疯狂的麦咭第八季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">疯狂的麦咭第八季</h3>
+                            <p class="card-desc">全新升级的石头城密室，明星嘉宾必须在倒计时内破解机关，否则会被“麦咭”吃掉。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="消失的收藏家" data-region="中国大陆" data-year="2024" data-genre="悬疑 / 犯罪 / 剧情" data-tags="古董 密室 心理博弈 暴风雪山庄" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-0320.html" aria-label="消失的收藏家">
+                        <div class="poster">
+                            <img src="./20.jpg" alt="消失的收藏家" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">消失的收藏家</h3>
+                            <p class="card-desc">价值连城的古董离奇被盗，而嫌疑人竟是已经消失了十年的收藏家本人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="沉默的阴谋" data-region="德国" data-year="2024" data-genre="悬疑 / 剧情 / 政治" data-tags="华尔街 聋哑主角 金融犯罪 暗网" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0329.html" aria-label="沉默的阴谋">
+                        <div class="poster">
+                            <img src="./29.jpg" alt="沉默的阴谋" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">沉默的阴谋</h3>
+                            <p class="card-desc">一名失聪的金融分析师意外破解了暗网密码，发现了一场即将摧毁欧元区的惊天阴谋。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2024</span>
+                                <span>德国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="梅地亚万圣节2" data-region="美国" data-year="2024" data-genre="喜剧， 恐怖， 奇幻" data-tags="黑人喜剧 恶搞 万圣节 家庭" data-category="热门精选" data-rating="9.7">
+                    <a href="movie-0332.html" aria-label="梅地亚万圣节2">
+                        <div class="poster">
+                            <img src="./32.jpg" alt="梅地亚万圣节2" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">梅地亚万圣节2</h3>
+                            <p class="card-desc">梅地亚大妈本想在家安静过万圣节，结果她的房子成了时空裂缝，各路经典恐怖反派在此开派对。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.7</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="传世宝藏" data-region="中国" data-year="2026" data-genre="冒险, 动作" data-tags="寻宝 民国 家族秘史 机关术" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-0347.html" aria-label="传世宝藏">
+                        <div class="poster">
+                            <img src="./47.jpg" alt="传世宝藏" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">传世宝藏</h3>
+                            <p class="card-desc">一张从古井里捞出的羊皮地图，牵出三个家族延续百年的生死博弈。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2026</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="花开与你的半夏" data-region="中国" data-year="2024" data-genre="爱情, 青春, 文艺" data-tags="校园 暗恋 时光胶囊 遗憾" data-category="热门精选" data-rating="9.7">
+                    <a href="movie-0352.html" aria-label="花开与你的半夏">
+                        <div class="poster">
+                            <img src="./52.jpg" alt="花开与你的半夏" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">花开与你的半夏</h3>
+                            <p class="card-desc">毕业十年后的同学会上，一张被遗忘的“时光胶囊”纸条曝光，揭开了当年四个朋友之间错位的爱情暗线。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.7</span>
+                                <span>2024</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="穿越无尽的海洋前往月球" data-region="中国大陆" data-year="2022" data-genre="剧情, 科幻, 家庭" data-tags="阿尔茨海默 亲情 宇宙 记忆 告别" data-category="热门精选" data-rating="8.8">
+                    <a href="movie-0370.html" aria-label="穿越无尽的海洋前往月球">
+                        <div class="poster">
+                            <img src="./70.jpg" alt="穿越无尽的海洋前往月球" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">穿越无尽的海洋前往月球</h3>
+                            <p class="card-desc">患有阿尔茨海默病的父亲将护工当做儿子，并坚信自己是一艘飞船的船长，要带他穿越太平洋前往月球。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.8</span>
+                                <span>2022</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="狐狸之声国语" data-region="中国大陆" data-year="2025" data-genre="音乐 / 奇幻" data-tags="配音 虚拟偶像 狐妖 国风 治愈" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0371.html" aria-label="狐狸之声国语">
+                        <div class="poster">
+                            <img src="./71.jpg" alt="狐狸之声国语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">狐狸之声国语</h3>
+                            <p class="card-desc">过气国风歌手意外发现，自己养的狐狸每晚都会用他的账号发布爆款歌曲，而这首歌的歌词预言了他的死亡。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="亚博" data-region="中国香港" data-year="2024" data-genre="剧情，体育" data-tags="亚裔拳手 底层奋斗 单亲父亲 擂台内外" data-category="热门精选" data-rating="8.0">
+                    <a href="movie-0372.html" aria-label="亚博">
+                        <div class="poster">
+                            <img src="./72.jpg" alt="亚博" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">亚博</h3>
+                            <p class="card-desc">在香港深水埗的劏房里，一个缅甸裔拳手要用十场地下赛的奖金，买下儿子的抚养权。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.0</span>
+                                <span>2024</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="比老虎可怕的冬季客人" data-region="俄罗斯" data-year="2026" data-genre="剧情， 奇幻" data-tags="寓言 暴风雪 神秘" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-0386.html" aria-label="比老虎可怕的冬季客人">
+                        <div class="poster">
+                            <img src="./86.jpg" alt="比老虎可怕的冬季客人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">比老虎可怕的冬季客人</h3>
+                            <p class="card-desc">暴风雪夜，一个自称“冬季客人”的神秘老头到来，他许下的愿望都会让人失去最重要的东西。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2026</span>
+                                <span>俄罗斯</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="战火中的女神" data-region="乌克兰" data-year="2024" data-genre="战争 / 剧情 / 女性" data-tags="女兵 狙击手 卫国 真实改编" data-category="热门精选" data-rating="8.5">
+                    <a href="movie-0389.html" aria-label="战火中的女神">
+                        <div class="poster">
+                            <img src="./89.jpg" alt="战火中的女神" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">战火中的女神</h3>
+                            <p class="card-desc">她是大学里的语言学讲师，战争爆发后，她成为令敌军闻风丧胆的“暗夜女巫”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.5</span>
+                                <span>2024</span>
+                                <span>乌克兰</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="生为女人" data-region="中国香港" data-year="2025" data-genre="剧情 / 家庭 / 女性" data-tags="代际冲突 自我觉醒 计划生育 寻根" data-category="热门精选" data-rating="7.9">
+                    <a href="movie-0398.html" aria-label="生为女人">
+                        <div class="poster">
+                            <img src="./98.jpg" alt="生为女人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">生为女人</h3>
+                            <p class="card-desc">母亲病危之际，一个关于“超生”的秘密被揭开，三个女儿发现她们中有一个并非亲生。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.9</span>
+                                <span>2025</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="关键复仇" data-region="美国" data-year="2025" data-genre="动作, 犯罪" data-tags="私刑正义 钢琴家 高智商犯罪 密码学 以暴制暴" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0410.html" aria-label="关键复仇">
+                        <div class="poster">
+                            <img src="./110.jpg" alt="关键复仇" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">关键复仇</h3>
+                            <p class="card-desc">一位隐居的盲人钢琴家，利用声波共振原理引发特定频率的爆炸，逐一猎杀当年杀害他妻女的歹徒。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="笨拙之极的上野" data-region="日本" data-year="2023" data-genre="喜剧 / 爱情" data-tags="校园 反差萌 理科女 日常爆笑" data-category="热门精选" data-rating="9.1">
+                    <a href="movie-0434.html" aria-label="笨拙之极的上野">
+                        <div class="poster">
+                            <img src="./134.jpg" alt="笨拙之极的上野" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">笨拙之极的上野</h3>
+                            <p class="card-desc">天才发明少女上野，每次向暗恋的学弟告白都会搞出惊天大乌龙。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.1</span>
+                                <span>2023</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="我和我的父辈" data-region="中国大陆" data-year="2024" data-genre="剧情 / 家庭" data-tags="亲情 代际冲突 时代变迁 催泪" data-category="热门精选" data-rating="7.7">
+                    <a href="movie-0462.html" aria-label="我和我的父辈">
+                        <div class="poster">
+                            <img src="./12.jpg" alt="我和我的父辈" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">我和我的父辈</h3>
+                            <p class="card-desc">儿子用AI复活了去世的父亲，却发现AI父亲和自己记忆里的完全不一样。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.7</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="大逃亡" data-region="德国" data-year="2025" data-genre="历史 / 动作 / 剧情" data-tags="二战战俘营 集体越狱 真实改编" data-category="热门精选" data-rating="7.7">
+                    <a href="movie-0471.html" aria-label="大逃亡">
+                        <div class="poster">
+                            <img src="./21.jpg" alt="大逃亡" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">大逃亡</h3>
+                            <p class="card-desc">根据真实事件改编，21名盟军战俘耗时一年挖出三条地道，却只有三人活到战后。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.7</span>
+                                <span>2025</span>
+                                <span>德国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="遇见你真好第一季" data-region="中国大陆" data-year="2024" data-genre="真人秀, 恋爱, 社交" data-tags="素人 观察室 青春" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0479.html" aria-label="遇见你真好第一季">
+                        <div class="poster">
+                            <img src="./29.jpg" alt="遇见你真好第一季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">遇见你真好第一季</h3>
+                            <p class="card-desc">八位来自不同行业的素人青年共住海边“心动小屋”，在21天里寻找“遇见”的真正意义。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="村曲悠扬" data-region="中国大陆" data-year="2024" data-genre="剧情 / 音乐" data-tags="乡村 民谣 返乡 治愈 文化传承" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-0488.html" aria-label="村曲悠扬">
+                        <div class="poster">
+                            <img src="./38.jpg" alt="村曲悠扬" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">村曲悠扬</h3>
+                            <p class="card-desc">失意摇滚乐手返乡，用破旧村歌唱响乡村振兴的意外序曲。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="手足情" data-region="中国香港" data-year="2024" data-genre="剧情 / 犯罪 / 家庭" data-tags="兄弟反目 卧底 黑帮" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0496.html" aria-label="手足情">
+                        <div class="poster">
+                            <img src="./46.jpg" alt="手足情" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">手足情</h3>
+                            <p class="card-desc">亲兄弟二人，一个是刚出狱的莽夫，一个是即将坐牢的警察，他们必须在72小时内互换身份。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2024</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="沉默之墙" data-region="德国" data-year="2017" data-genre="剧情 / 历史 / 战争" data-tags="柏林墙 逃亡 沉默 家庭" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0498.html" aria-label="沉默之墙">
+                        <div class="poster">
+                            <img src="./48.jpg" alt="沉默之墙" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">沉默之墙</h3>
+                            <p class="card-desc">1961年柏林墙建起的那一刻，住在同一条街上的两个德国家庭，被一道墙割裂成了生死冤家。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2017</span>
+                                <span>德国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="美丽的约定" data-region="法国/比利时" data-year="2026" data-genre="剧情/爱情" data-tags="战争 青梅竹马 诗意现实主义 书信 命运" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-0507.html" aria-label="美丽的约定">
+                        <div class="poster">
+                            <img src="./57.jpg" alt="美丽的约定" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">美丽的约定</h3>
+                            <p class="card-desc">一战前夕，两个孩子在小镇教堂许下婚约，却被战火拆散，从此用一生去寻找那个只见过三天的女孩。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2026</span>
+                                <span>法国/比利时</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="非一般老师" data-region="法国" data-year="2014" data-genre="喜剧 / 教育 / 励志" data-tags="边缘少年 另类教学 脱口秀式课堂" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-0510.html" aria-label="非一般老师">
+                        <div class="poster">
+                            <img src="./60.jpg" alt="非一般老师" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">非一般老师</h3>
+                            <p class="card-desc">一个被开除的脱口秀演员误打误撞成了巴黎郊区“差生班”的语文老师，他用段子治好了所有人的厌学。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2014</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="魔城回忆录" data-region="西班牙" data-year="2025" data-genre="奇幻/悬疑" data-tags="记忆删除 迷宫 阴谋 自我追寻" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0512.html" aria-label="魔城回忆录">
+                        <div class="poster">
+                            <img src="./62.jpg" alt="魔城回忆录" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">魔城回忆录</h3>
+                            <p class="card-desc">一座可以删除特定记忆的城市，居民每年删除一次痛苦往事，却出现一个无法被删除的女孩。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2025</span>
+                                <span>西班牙</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="爱情潜到宝" data-region="中国大陆" data-year="2023" data-genre="喜剧 / 爱情" data-tags="潜水 寻宝 欢喜冤家" data-category="热门精选" data-rating="7.7">
+                    <a href="movie-0532.html" aria-label="爱情潜到宝">
+                        <div class="poster">
+                            <img src="./82.jpg" alt="爱情潜到宝" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">爱情潜到宝</h3>
+                            <p class="card-desc">一名破产潜水教练与一名考古系女博士，在南海沉船打捞过程中，意外发现了价值连城的“情书秘宝”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.7</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="夺魂铃" data-region="中国香港" data-year="1968" data-genre="动作, 武侠" data-tags="邵氏 复仇 暗器 江湖" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-0573.html" aria-label="夺魂铃">
+                        <div class="poster">
+                            <img src="./123.jpg" alt="夺魂铃" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">夺魂铃</h3>
+                            <p class="card-desc">身负灭门血仇的少侠，手持祖传“夺魂铃”，在客栈的方寸之地引出仇家，逐一索命。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>1968</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="异形寄生:起源" data-region="美国" data-year="2025" data-genre="科幻，恐怖" data-tags="太空惊悚 前传 身体恐惧" data-category="热门精选" data-rating="8.0">
+                    <a href="movie-0575.html" aria-label="异形寄生:起源">
+                        <div class="poster">
+                            <img src="./125.jpg" alt="异形寄生:起源" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">异形寄生:起源</h3>
+                            <p class="card-desc">在与人类遭遇的数百年前，异形的第一个宿主并不是人类，而是一个濒临灭绝的外星文明。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.0</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="京城学校：消失的少女们" data-region="韩国" data-year="2023" data-genre="悬疑 / 恐怖" data-tags="女校 失踪 封建 邪教 反转" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-0579.html" aria-label="京城学校：消失的少女们">
+                        <div class="poster">
+                            <img src="./129.jpg" alt="京城学校：消失的少女们" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">京城学校：消失的少女们</h3>
+                            <p class="card-desc">一所百年女校接连有少女失踪，校长说是她们自己逃跑的，但所有失踪少女的日记里都出现了同一个词：“子宫”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2023</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="福禄双霸天" data-region="美国" data-year="2025" data-genre="喜剧，音乐，动作" data-tags="音乐剧 警匪追车 兄弟喜剧 复古摇滚" data-category="热门精选" data-rating="9.4">
+                    <a href="movie-0625.html" aria-label="福禄双霸天">
+                        <div class="poster">
+                            <img src="./25.jpg" alt="福禄双霸天" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">福禄双霸天</h3>
+                            <p class="card-desc">为了拯救从小长大的孤儿院，一对不靠谱的兄弟决定重组乐队，展开一场横跨美国的疯狂募捐之旅。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.4</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="白暮的编年史" data-region="日本" data-year="2026" data-genre="奇幻 / 悬疑 / 剧情" data-tags="永生 图书馆 记忆 时间轮回" data-category="热门精选" data-rating="8.0">
+                    <a href="movie-0655.html" aria-label="白暮的编年史">
+                        <div class="poster">
+                            <img src="./55.jpg" alt="白暮的编年史" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">白暮的编年史</h3>
+                            <p class="card-desc">一个永生的图书管理员，每一百年才能与转世的恋人重逢，而恋人的每一次死亡都是谋杀。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.0</span>
+                                <span>2026</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="僵尸飞鲨" data-region="美国" data-year="2022" data-genre="恐怖, 科幻, 动作, 灾难" data-tags="B级片 鲨鱼 僵尸 血浆 无脑爽片" data-category="热门精选" data-rating="9.8">
+                    <a href="movie-0659.html" aria-label="僵尸飞鲨">
+                        <div class="poster">
+                            <img src="./59.jpg" alt="僵尸飞鲨" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">僵尸飞鲨</h3>
+                            <p class="card-desc">军方复活了史前巨鲨的尸体，结果它咬一口活人，对方就变僵尸，海里全是丧尸鲨鱼。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.8</span>
+                                <span>2022</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="赴刃" data-region="中国大陆" data-year="2026" data-genre="古装 / 武侠 / 悬疑" data-tags="复仇 权谋 双面卧底 冷兵器 女性复仇" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0660.html" aria-label="赴刃">
+                        <div class="poster">
+                            <img src="./60.jpg" alt="赴刃" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">赴刃</h3>
+                            <p class="card-desc">十年前被灭门的孤女化身冷血刺客，在接近仇人的过程中，却发现自己只是棋局中的一枚棋子。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="不知剧情也无妨" data-region="中国大陆" data-year="2026" data-genre="剧情，悬疑，爱情" data-tags="编剧 失忆 套娃结构 反套路" data-category="热门精选" data-rating="7.4">
+                    <a href="movie-0662.html" aria-label="不知剧情也无妨">
+                        <div class="poster">
+                            <img src="./62.jpg" alt="不知剧情也无妨" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">不知剧情也无妨</h3>
+                            <p class="card-desc">一个失忆的编剧发现自己剧本里的故事正在现实中上演，而她本人就是那个注定要死的女主角。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.4</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="挑战" data-region="美国" data-year="2019" data-genre="惊悚， 悬疑， 犯罪" data-tags="暗网 死亡游戏 直播 心理操控 反转" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0664.html" aria-label="挑战">
+                        <div class="poster">
+                            <img src="./64.jpg" alt="挑战" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">挑战</h3>
+                            <p class="card-desc">落魄程序员为还债参加暗网直播游戏，却发现对手是能预判他每一步行动的AI。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2019</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="我老婆是学生会长第二季" data-region="日本" data-year="2016" data-genre="喜剧, 爱情, 动画" data-tags="校园 恋爱 同居 风纪委员" data-category="热门精选" data-rating="7.9">
+                    <a href="movie-0667.html" aria-label="我老婆是学生会长第二季">
+                        <div class="poster">
+                            <img src="./67.jpg" alt="我老婆是学生会长第二季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">我老婆是学生会长第二季</h3>
+                            <p class="card-desc">学生会长夫妻的秘密同居生活升级，这次连风纪委员都搬了进来！</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.9</span>
+                                <span>2016</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="将军在上之极乐净土" data-region="中国" data-year="2023" data-genre="古装 / 动作 / 奇幻" data-tags="女将军 幻境冒险 西域魔教 平行世界 夫妻联手" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0668.html" aria-label="将军在上之极乐净土">
+                        <div class="poster">
+                            <img src="./68.jpg" alt="将军在上之极乐净土" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">将军在上之极乐净土</h3>
+                            <p class="card-desc">女将军叶昭误入幻境极乐净土，遇见了八个不同人生的自己。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2023</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="发生于七月二十日" data-region="西德" data-year="1955" data-genre="剧情 / 历史" data-tags="刺杀希特勒 政治惊悚 反思史观" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-0676.html" aria-label="发生于七月二十日">
+                        <div class="poster">
+                            <img src="./76.jpg" alt="发生于七月二十日" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">发生于七月二十日</h3>
+                            <p class="card-desc">以秒为单位还原刺杀希特勒的“狼穴”现场，那枚偏离了十厘米的炸弹。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>1955</span>
+                                <span>西德</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="大富之家" data-region="中国香港" data-year="2025" data-genre="喜剧，家庭，剧情" data-tags="豪门争产 草根冒充 真假千金 粤语幽默" data-category="热门精选" data-rating="7.6">
+                    <a href="movie-0700.html" aria-label="大富之家">
+                        <div class="poster">
+                            <img src="./100.jpg" alt="大富之家" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">大富之家</h3>
+                            <p class="card-desc">香港首富临终前留下遗嘱：谁找回三十年前被送走的真千金，谁就能继承八百亿遗产。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.6</span>
+                                <span>2025</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="鬼狗杀手" data-region="美国" data-year="2024" data-genre="动作, 犯罪, 剧情" data-tags="杀手 黑人武士 忠诚 孤独 暴力美学" data-category="热门精选" data-rating="9.8">
+                    <a href="movie-0711.html" aria-label="鬼狗杀手">
+                        <div class="poster">
+                            <img src="./111.jpg" alt="鬼狗杀手" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">鬼狗杀手</h3>
+                            <p class="card-desc">一名独来独往的杀手遵循武士道，直到帮派背叛他养的一条流浪狗。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.8</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="女孩欲乐园" data-region="日本" data-year="2025" data-genre="剧情/青春" data-tags="女性 欲望 成长 便利店" data-category="热门精选" data-rating="7.9">
+                    <a href="movie-0720.html" aria-label="女孩欲乐园">
+                        <div class="poster">
+                            <img src="./120.jpg" alt="女孩欲乐园" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">女孩欲乐园</h3>
+                            <p class="card-desc">在24小时便利店打工的三个女孩，把收银台当成了探索成人世界的秘密基地。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.9</span>
+                                <span>2025</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="谁之过" data-region="中国大陆" data-year="2027" data-genre="剧情, 犯罪, 家庭" data-tags="全民审判 网暴 媒体伦理 悲剧 社会派" data-category="热门精选" data-rating="7.4">
+                    <a href="movie-0738.html" aria-label="谁之过">
+                        <div class="poster">
+                            <img src="./138.jpg" alt="谁之过" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">谁之过</h3>
+                            <p class="card-desc">一个 5 岁女孩死在幼儿园，警察、家长、老师、媒体都在推卸责任，直到第 8 集，凶手竟是所有人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.4</span>
+                                <span>2027</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="灰烬之外" data-region="美国" data-year="2025" data-genre="科幻 / 悬疑 / 爱情" data-tags="记忆删除 反抗组织 废墟 AI" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0747.html" aria-label="灰烬之外">
+                        <div class="poster">
+                            <img src="./147.jpg" alt="灰烬之外" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">灰烬之外</h3>
+                            <p class="card-desc">在“记忆无罪化”的未来，一名记忆清洁工爱上了一具“待焚化尸体”中残留的童年片段。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="狂野目标" data-region="英国" data-year="2010" data-genre="喜剧, 动作, 犯罪" data-tags="杀手 黑色幽默 英式冷幽默 乌龙" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-0753.html" aria-label="狂野目标">
+                        <div class="poster">
+                            <img src="./3.jpg" alt="狂野目标" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">狂野目标</h3>
+                            <p class="card-desc">一个患有强迫症的顶级杀手在刺杀一个女骗子时，却意外被她带偏，演变成一场全员懵逼的逃亡之旅。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2010</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="村民反击战" data-region="印度" data-year="2023" data-genre="动作, 剧情, 复仇" data-tags="农村 土地纠纷 冷兵器 史诗式反抗" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-0754.html" aria-label="村民反击战">
+                        <div class="poster">
+                            <img src="./4.jpg" alt="村民反击战" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">村民反击战</h3>
+                            <p class="card-desc">为保住世代耕种的土地，印度村民用农具和智慧对抗跨国公司的雇佣兵。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2023</span>
+                                <span>印度</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="真由美" data-region="日本" data-year="1977" data-genre="动作 / 犯罪" data-tags="复仇 女性 暴力 经典" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-0770.html" aria-label="真由美">
+                        <div class="poster">
+                            <img src="./20.jpg" alt="真由美" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">真由美</h3>
+                            <p class="card-desc">为了替被黑帮残忍杀害的未婚夫报仇，普通女白领真由美拿起枪，化身城市暗夜里的复仇天使。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>1977</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="九霄帝神第二季" data-region="中国大陆" data-year="2025" data-genre="奇幻, 冒险, 玄幻" data-tags="修仙 逆袭 神魔" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0782.html" aria-label="九霄帝神第二季">
+                        <div class="poster">
+                            <img src="./32.jpg" alt="九霄帝神第二季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">九霄帝神第二季</h3>
+                            <p class="card-desc">废柴少帝回归九重天，发现神位争夺背后隐藏着天道崩塌的秘密，他必须杀死过去的自己才能重塑法则。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="幸福美丽绽放" data-region="中国大陆" data-year="2025" data-genre="剧情，家庭，励志" data-tags="单亲妈妈 职场逆袭 创业 女性" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-0785.html" aria-label="幸福美丽绽放">
+                        <div class="poster">
+                            <img src="./35.jpg" alt="幸福美丽绽放" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">幸福美丽绽放</h3>
+                            <p class="card-desc">离婚后带着自闭症女儿的单亲妈妈，为了给孩子治病，从摆地摊做起，最终创立了属于自己的国潮童装品牌。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="克莱曼婷" data-region="美国" data-year="2024" data-genre="惊悚, 心理" data-tags="记忆删除 身份迷局 反转 心理惊悚" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-0790.html" aria-label="克莱曼婷">
+                        <div class="poster">
+                            <img src="./40.jpg" alt="克莱曼婷" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">克莱曼婷</h3>
+                            <p class="card-desc">一觉醒来她不记得自己是谁，一个自称是她丈夫的男人说她是克莱曼婷，但手机里的一个号码发来短信：别信他。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="母鹿" data-region="法国" data-year="2022" data-genre="剧情, 惊悚, 悬疑" data-tags="复仇 自然主义 女性" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0814.html" aria-label="母鹿">
+                        <div class="poster">
+                            <img src="./64.jpg" alt="母鹿" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">母鹿</h3>
+                            <p class="card-desc">护林员妻子发现丈夫猎杀的母鹿腹中，竟藏着人类婴儿的残骸。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2022</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="最终时刻：耶路撒冷" data-region="美国" data-year="2025" data-genre="动作 / 惊悚 / 宗教" data-tags="反恐 圣城 倒计时 信仰 大场面" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0828.html" aria-label="最终时刻：耶路撒冷">
+                        <div class="poster">
+                            <img src="./78.jpg" alt="最终时刻：耶路撒冷" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">最终时刻：耶路撒冷</h3>
+                            <p class="card-desc">恐怖分子在耶路撒冷埋下三枚炸弹，一名卧底特工必须在赎罪日日落前全部拆除，否则圣城将毁灭。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="血色残阳" data-region="中国大陆" data-year="2025" data-genre="悬疑, 年代, 伦理" data-tags="民国 宅斗 复仇 江南" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0831.html" aria-label="血色残阳">
+                        <div class="poster">
+                            <img src="./81.jpg" alt="血色残阳" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">血色残阳</h3>
+                            <p class="card-desc">江南丝织大宅“残阳院”接连发生诡异命案，每具尸体旁边都放着一匹血红色的丝绸。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="疯狂的麦咭第一季" data-region="中国大陆" data-year="2025" data-genre="真人秀, 冒险" data-tags="闯关 密室 明星 智力" data-category="热门精选" data-rating="7.8">
+                    <a href="movie-0834.html" aria-label="疯狂的麦咭第一季">
+                        <div class="poster">
+                            <img src="./84.jpg" alt="疯狂的麦咭第一季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">疯狂的麦咭第一季</h3>
+                            <p class="card-desc">明星嘉宾进入巨型主题密室闯关，每解开一个谜题，密室就会“翻脸”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.8</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="庆余年第二季" data-region="中国大陆" data-year="2024" data-genre="古装权谋" data-tags="穿越 朝堂 庙堂之争" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-0841.html" aria-label="庆余年第二季">
+                        <div class="poster">
+                            <img src="./91.jpg" alt="庆余年第二季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">庆余年第二季</h3>
+                            <p class="card-desc">范闲假死归来，发现庆帝不仅知道他是穿越者，还知道叶轻眉的所有秘密。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="意外的春天" data-region="中国台湾" data-year="2026" data-genre="爱情, 剧情, 奇幻" data-tags="时间循环 治愈 文艺 遗憾" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-0862.html" aria-label="意外的春天">
+                        <div class="poster">
+                            <img src="./112.jpg" alt="意外的春天" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">意外的春天</h3>
+                            <p class="card-desc">园艺师颜子希发现自己只能在每年春天同一天醒来，而每一次醒来，暗恋的学长都会突然消失。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2026</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="邪恶友谊" data-region="美国" data-year="2024" data-genre="惊悚 / 心理" data-tags="校园霸凌 PUA操控 人格分裂 反转结局 细思极恐" data-category="热门精选" data-rating="9.8">
+                    <a href="movie-0868.html" aria-label="邪恶友谊">
+                        <div class="poster">
+                            <img src="./118.jpg" alt="邪恶友谊" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">邪恶友谊</h3>
+                            <p class="card-desc">转学生发现自己的“灵魂挚友”竟是全校最危险的操纵者，而她已经离不开对方了。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.8</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="厄运临头" data-region="美国" data-year="2024" data-genre="惊悚, 悬疑" data-tags="密室 倒计时 宿命论 反转" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-0869.html" aria-label="厄运临头">
+                        <div class="poster">
+                            <img src="./119.jpg" alt="厄运临头" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">厄运临头</h3>
+                            <p class="card-desc">七个陌生人醒来发现自己被困在一个地下掩体，每人头顶都有一个倒计时，归零者便会离奇惨死。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="萨米温与达西玛" data-region="印度" data-year="2020" data-genre="动作， 爱情， 歌舞" data-tags="印度 复仇 村庄 剑术 婚礼" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-0870.html" aria-label="萨米温与达西玛">
+                        <div class="poster">
+                            <img src="./120.jpg" alt="萨米温与达西玛" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">萨米温与达西玛</h3>
+                            <p class="card-desc">女土匪萨米温假扮新娘潜入仇人儿子的婚礼，却发现新郎是她失散多年的初恋达西玛。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2020</span>
+                                <span>印度</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="慢慢说" data-region="中国香港" data-year="2024" data-genre="爱情， 文艺， 家庭" data-tags="聋哑人 手语 家族秘密" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-0877.html" aria-label="慢慢说">
+                        <div class="poster">
+                            <img src="./127.jpg" alt="慢慢说" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">慢慢说</h3>
+                            <p class="card-desc">一个突然失聪的女孩，被迫用手语与家人交流，意外揭开了家族三代人的情感伤痕。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2024</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="前科者" data-region="日本" data-year="2022" data-genre="剧情, 犯罪, 社会" data-tags="更生保护 边缘人群 女性视角 社会派悬疑 救赎" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-0909.html" aria-label="前科者">
+                        <div class="poster">
+                            <img src="./9.jpg" alt="前科者" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">前科者</h3>
+                            <p class="card-desc">她是帮助刑满释放人员回归社会的志愿者，直到她发现，自己最信任的“完成更生者”正在策划一场完美谋杀。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2022</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="隋唐英雄传" data-region="中国大陆" data-year="2025" data-genre="历史，战争，动作" data-tags="评书改编 少年英雄 群像" data-category="热门精选" data-rating="9.1">
+                    <a href="movie-0912.html" aria-label="隋唐英雄传">
+                        <div class="poster">
+                            <img src="./12.jpg" alt="隋唐英雄传" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">隋唐英雄传</h3>
+                            <p class="card-desc">少年秦琼背负家族血仇，在瓦岗寨聚义，与一众兄弟推翻暴隋，见证大唐的崛起。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.1</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="第二次也可以" data-region="韩国" data-year="2021" data-genre="爱情, 剧情" data-tags="离婚重组 中年爱情 治愈 同居关系" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-0938.html" aria-label="第二次也可以">
+                        <div class="poster">
+                            <img src="./38.jpg" alt="第二次也可以" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">第二次也可以</h3>
+                            <p class="card-desc">离婚五年后，前夫带着行李箱站在门口：“我想从头再来，第二次也可以。”</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2021</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="师声对决" data-region="中国台湾" data-year="2026" data-genre="剧情，音乐，运动" data-tags="阿卡贝拉 师生对抗 代际和解 校园社团" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-0950.html" aria-label="师声对决">
+                        <div class="poster">
+                            <img src="./50.jpg" alt="师声对决" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">师声对决</h3>
+                            <p class="card-desc">曾经的金牌合唱团指导老师，因为理念分歧被学生集体“开除”，转而组建一支敌队，要在全国大赛上击败自己的徒弟。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2026</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="我，萨德侯爵" data-region="法国" data-year="2024" data-genre="剧情 / 历史 / 传记" data-tags="法国大革命 思想启蒙 情色哲学 历史解构 权力批判" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-0974.html" aria-label="我，萨德侯爵">
+                        <div class="poster">
+                            <img src="./74.jpg" alt="我，萨德侯爵" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">我，萨德侯爵</h3>
+                            <p class="card-desc">在巴士底狱被攻破的前一天，被关押了11年的萨德侯爵对着墙壁咆哮，而他喊出的不是自由，而是“把我的鹅毛笔还给我”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2024</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="初行" data-region="中国台湾" data-year="2024" data-genre="剧情 / 家庭" data-tags="父子关系 单车环岛 和解 公路片" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-0978.html" aria-label="初行">
+                        <div class="poster">
+                            <img src="./78.jpg" alt="初行" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">初行</h3>
+                            <p class="card-desc">儿子带着父亲的骨灰盒完成了两人约定好的环岛骑行，每到一处景点就挖出一点灰。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2024</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="快乐酷宝2" data-region="中国大陆" data-year="2014" data-genre="儿童 / 科幻" data-tags="机器人 校园 友谊" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-0990.html" aria-label="快乐酷宝2">
+                        <div class="poster">
+                            <img src="./90.jpg" alt="快乐酷宝2" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">快乐酷宝2</h3>
+                            <p class="card-desc">小学生乐乐发现新来的转学生其实是外星机器人，而他要阻止邪恶AI入侵校园网络。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2014</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="速度" data-region="美国" data-year="1994" data-genre="动作，惊悚" data-tags="公交车 炸弹 限速 经典" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-1037.html" aria-label="速度">
+                        <div class="poster">
+                            <img src="./137.jpg" alt="速度" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">速度</h3>
+                            <p class="card-desc">警探杰克必须让一辆公交车时速保持在50英里以上，否则炸弹就会引爆。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>1994</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="暴走财神6" data-region="中国" data-year="2025" data-genre="喜剧 / 奇幻" data-tags="网络大电影 财神文化 黑色幽默 贺岁" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-1039.html" aria-label="暴走财神6">
+                        <div class="poster">
+                            <img src="./139.jpg" alt="暴走财神6" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">暴走财神6</h3>
+                            <p class="card-desc">实习财神因操作失误，误将百亿天降横财砸中一个欠债的倒霉蛋，为了弥补过失，他必须下凡教会这人怎么花钱。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2025</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="水果机器" data-region="日本" data-year="2023" data-genre="奇幻, 悬疑, 青春" data-tags="超能力 校园 隐喻" data-category="热门精选" data-rating="8.5">
+                    <a href="movie-1042.html" aria-label="水果机器">
+                        <div class="poster">
+                            <img src="./142.jpg" alt="水果机器" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">水果机器</h3>
+                            <p class="card-desc">在一所普通高中里，每天午休都会有个学生变成一种水果，全校对此习以为常，直到有人变成了一颗炸弹。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.5</span>
+                                <span>2023</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="咖啡旋律" data-region="日本" data-year="2023" data-genre="爱情 / 音乐" data-tags="治愈系 咖啡店 钢琴" data-category="热门精选" data-rating="8.6">
+                    <a href="movie-1048.html" aria-label="咖啡旋律">
+                        <div class="poster">
+                            <img src="./148.jpg" alt="咖啡旋律" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">咖啡旋律</h3>
+                            <p class="card-desc">一名失忆的钢琴家在小巷咖啡店打工，客人点的每杯咖啡竟对应着一首只属于他们的曲子。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.6</span>
+                                <span>2023</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="战马一号" data-region="美国" data-year="2025" data-genre="战争、动作、历史" data-tags="一战 骑兵 人兽情 沙漠战役 真实事件改编" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-1059.html" aria-label="战马一号">
+                        <div class="poster">
+                            <img src="./9.jpg" alt="战马一号" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">战马一号</h3>
+                            <p class="card-desc">一战中东战场，一匹战马和它的骑兵在失散后，分别穿越火线寻找彼此，累计行程四百公里。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="幻爱钟情" data-region="中国内地" data-year="2024" data-genre="爱情 / 奇幻" data-tags="幻觉 心理惊悚 失忆 虚实交错 都市男女" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-1068.html" aria-label="幻爱钟情">
+                        <div class="poster">
+                            <img src="./18.jpg" alt="幻爱钟情" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">幻爱钟情</h3>
+                            <p class="card-desc">她爱上了一个完美男人，直到发现这个男人只有她自己能看见。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2024</span>
+                                <span>中国内地</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="特洛伊" data-region="美国" data-year="2026" data-genre="历史, 战争" data-tags="史诗翻拍 众神视角 多线叙事 删减版争议" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-1071.html" aria-label="特洛伊">
+                        <div class="poster">
+                            <img src="./21.jpg" alt="特洛伊" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">特洛伊</h3>
+                            <p class="card-desc">从奥林匹斯众神的角度重写特洛伊战争，人类是棋子，而这场战争真正的赌注是“谁当众神之王”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2026</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="更多危险刑事" data-region="日本" data-year="2024" data-genre="刑侦喜剧" data-tags="双男主 无厘头 暴力执法 热血警探 续作" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-1076.html" aria-label="更多危险刑事">
+                        <div class="poster">
+                            <img src="./26.jpg" alt="更多危险刑事" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">更多危险刑事</h3>
+                            <p class="card-desc">那个穿着风衣、动不动就砸烂公物的“危险刑事”又回来了，这次他的对手是AI犯罪。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2024</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="小狗之爱" data-region="英国" data-year="2024" data-genre="喜剧 / 家庭 / 剧情" data-tags="萌宠 温情 英式幽默 老年题材 治愈" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-1084.html" aria-label="小狗之爱">
+                        <div class="poster">
+                            <img src="./34.jpg" alt="小狗之爱" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">小狗之爱</h3>
+                            <p class="card-desc">70岁的老太太为了给巴哥犬报名选美比赛，意外卷入了一场横跨英伦三岛的宠物黑市大案。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2024</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="情陷亚维农" data-region="法国" data-year="2026" data-genre="爱情 / 剧情" data-tags="戏剧节 艺术家 中年危机" data-category="热门精选" data-rating="9.1">
+                    <a href="movie-1092.html" aria-label="情陷亚维农">
+                        <div class="poster">
+                            <img src="./42.jpg" alt="情陷亚维农" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">情陷亚维农</h3>
+                            <p class="card-desc">40岁的过气女演员在亚维农戏剧节上，与一位年轻的小丑演员和一位年迈的剧评家，上演了一出戏外戏。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.1</span>
+                                <span>2026</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="求爱敢死队国语" data-region="中国香港" data-year="1989" data-genre="喜剧、爱情" data-tags="追女仔 港式幽默 兄弟情 年代喜剧" data-category="热门精选" data-rating="7.7">
+                    <a href="movie-1106.html" aria-label="求爱敢死队国语">
+                        <div class="poster">
+                            <img src="./56.jpg" alt="求爱敢死队国语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">求爱敢死队国语</h3>
+                            <p class="card-desc">四个情场失意的男人组成“求爱敢死队”，用尽奇葩招数追求各自心中的女神。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.7</span>
+                                <span>1989</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="仁心解码Ⅱ国语" data-region="中国香港" data-year="2024" data-genre="医疗, 刑侦, 心理" data-tags="法医精神科 人格分裂 连环案 香港 职业剧" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-1112.html" aria-label="仁心解码Ⅱ国语">
+                        <div class="poster">
+                            <img src="./62.jpg" alt="仁心解码Ⅱ国语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">仁心解码Ⅱ国语</h3>
+                            <p class="card-desc">法医精神科医生高立仁接连收到神秘包裹，里面装着模仿患者病例手法的微型杀人模型。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2024</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="蜡像院杀人王" data-region="美国" data-year="2024" data-genre="恐怖 / 犯罪" data-tags="连环杀手 蜡像 血腥 黑色电影" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-1114.html" aria-label="蜡像院杀人王">
+                        <div class="poster">
+                            <img src="./64.jpg" alt="蜡像院杀人王" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">蜡像院杀人王</h3>
+                            <p class="card-desc">1932年，一位毁容的蜡像师在废弃剧院里，将仇人的尸体做成了永不腐烂的蜡像展览品。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="闪电地狱马龙" data-region="美国" data-year="2024" data-genre="西部 / 超自然 / 动作" data-tags="不死枪手 诅咒 沙漠哥特 复仇" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-1130.html" aria-label="闪电地狱马龙">
+                        <div class="poster">
+                            <img src="./80.jpg" alt="闪电地狱马龙" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">闪电地狱马龙</h3>
+                            <p class="card-desc">被闪电劈中七次不死的亡命徒马龙发现自己是不死之身，于是他决定去抢劫地狱的银行。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="绝命休息站" data-region="美国" data-year="2024" data-genre="恐怖, 惊悚, 悬疑" data-tags="公路片 密室逃脱 变态杀手 暴风雪山庄" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1142.html" aria-label="绝命休息站">
+                        <div class="poster">
+                            <img src="./92.jpg" alt="绝命休息站" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">绝命休息站</h3>
+                            <p class="card-desc">六名旅客被困在沙漠中的休息站，他们很快发现，休息站的每一个设施都是一个处刑机关。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="故乡" data-region="中国大陆" data-year="2023" data-genre="剧情 / 文艺" data-tags="城镇化 送别 拆迁" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-1151.html" aria-label="故乡">
+                        <div class="poster">
+                            <img src="./101.jpg" alt="故乡" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">故乡</h3>
+                            <p class="card-desc">村子即将被水库淹没，三个童年好友回来见最后一面，却各怀秘密。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="爱情配方" data-region="法国" data-year="2025" data-genre="喜剧 / 爱情 / 美食" data-tags="米其林 厨师 配方 欢喜冤家 味觉" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-1173.html" aria-label="爱情配方">
+                        <div class="poster">
+                            <img src="./123.jpg" alt="爱情配方" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">爱情配方</h3>
+                            <p class="card-desc">一位失去味觉的米其林大厨，只有尝过毒舌美食家的唾液才能短暂恢复味觉。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2025</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="实习医生格蕾第七季" data-region="美国" data-year="2023" data-genre="剧情 / 医疗" data-tags="医疗 职场 感情 美剧" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-1182.html" aria-label="实习医生格蕾第七季">
+                        <div class="poster">
+                            <img src="./132.jpg" alt="实习医生格蕾第七季" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">实习医生格蕾第七季</h3>
+                            <p class="card-desc">医院遭遇史上最严重的连环车祸，实习医生们必须在没有主任医师指导的情况下独自撑起急诊室。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2023</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="学生王子" data-region="美国" data-year="1954" data-genre="爱情 / 喜剧 / 歌舞" data-tags="经典 歌舞片 王子与贫儿 海德堡 老好莱坞" data-category="热门精选" data-rating="9.2">
+                    <a href="movie-1205.html" aria-label="学生王子">
+                        <div class="poster">
+                            <img src="./5.jpg" alt="学生王子" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">学生王子</h3>
+                            <p class="card-desc">一位厌倦宫廷的王子与一位穷学生互换身份，在海德堡的啤酒与歌声中找到了真正的自己。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.2</span>
+                                <span>1954</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="身后仕" data-region="日本" data-year="2012" data-genre="剧情, 奇幻" data-tags="公务员 冥界 温情 手续" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-1210.html" aria-label="身后仕">
+                        <div class="poster">
+                            <img src="./10.jpg" alt="身后仕" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">身后仕</h3>
+                            <p class="card-desc">考了八年公务员的废柴终于上岸，却发现自己被分配到了“阴间事务科”，负责给逝者办理投胎手续。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2012</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="寡妇春情" data-region="台湾" data-year="2025" data-genre="爱情" data-tags="乡村 禁忌恋 小叔与寡嫂 封建压迫 女性觉醒" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-1217.html" aria-label="寡妇春情">
+                        <div class="poster">
+                            <img src="./17.jpg" alt="寡妇春情" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">寡妇春情</h3>
+                            <p class="card-desc">丈夫死后，年轻的寡妇爱上了丈夫的哑巴弟弟，全村人要将她“浸猪笼”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2025</span>
+                                <span>台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="欲海孽情" data-region="中国香港" data-year="1998" data-genre="爱情/惊悚" data-tags="情杀 背叛 心理扭曲 三级" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-1218.html" aria-label="欲海孽情">
+                        <div class="poster">
+                            <img src="./18.jpg" alt="欲海孽情" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">欲海孽情</h3>
+                            <p class="card-desc">富商的情妇被杀，警方发现每个男人爱过她之后，都会变得想杀人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>1998</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="精致晚宴" data-region="法国" data-year="2024" data-genre="悬疑、剧情、心理" data-tags="高端餐饮 阶层批判 密室反转 黑色幽默" data-category="热门精选" data-rating="9.6">
+                    <a href="movie-1232.html" aria-label="精致晚宴">
+                        <div class="poster">
+                            <img src="./32.jpg" alt="精致晚宴" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">精致晚宴</h3>
+                            <p class="card-desc">一场只有六位社会精英参加的神秘晚宴，每上一道菜就有一人被揭穿黑暗过往。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.6</span>
+                                <span>2024</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="少年狮王" data-region="中国大陆" data-year="2024" data-genre="剧情 / 动作 / 励志" data-tags="舞狮 少年成长 传统文化 逆袭 热血" data-category="热门精选" data-rating="8.0">
+                    <a href="movie-1239.html" aria-label="少年狮王">
+                        <div class="poster">
+                            <img src="./39.jpg" alt="少年狮王" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">少年狮王</h3>
+                            <p class="card-desc">自闭症少年阿超意外展露舞狮天赋，却遭冠军队伍耻笑，他必须证明废材也能成为狮王。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.0</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="爱你入胃" data-region="美国" data-year="2017" data-genre="恐怖, 爱情, 喜剧" data-tags="丧尸 跨物种恋爱 血腥浪漫 cult" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-1252.html" aria-label="爱你入胃">
+                        <div class="poster">
+                            <img src="./52.jpg" alt="爱你入胃" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">爱你入胃</h3>
+                            <p class="card-desc">一个患有恋尸癖的女孩爱上了一个还有微弱意识的新鲜丧尸，他们开始了一场横跨生死的重口味爱情长跑。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2017</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="侦探拍档" data-region="美国" data-year="2024" data-genre="动作喜剧" data-tags="搭档 冤家 退休警察 网络犯罪 爆笑" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-1269.html" aria-label="侦探拍档">
+                        <div class="poster">
+                            <img src="./69.jpg" alt="侦探拍档" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">侦探拍档</h3>
+                            <p class="card-desc">老派硬汉警探被强行与一位12岁的天才黑客组队，追捕一个只偷猫咪的怪盗。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="克罗索巨兽" data-region="美国 / 西班牙" data-year="2016" data-genre="科幻 / 剧情 / 黑色喜剧" data-tags="怪物 隐喻 女权 酗酒 反套路怪兽片" data-category="热门精选" data-rating="7.1">
+                    <a href="movie-1296.html" aria-label="克罗索巨兽">
+                        <div class="poster">
+                            <img src="./96.jpg" alt="克罗索巨兽" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">克罗索巨兽</h3>
+                            <p class="card-desc">失意女作家发现自己醉酒后在公园里的动作，竟会同步操控地球另一端摧毁首尔的巨型怪兽。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.1</span>
+                                <span>2016</span>
+                                <span>美国 / 西班牙</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="古窑迷踪" data-region="中国大陆" data-year="2024" data-genre="悬疑 / 惊悚" data-tags="考古 民俗恐怖 瓷器 密室" data-category="热门精选" data-rating="7.1">
+                    <a href="movie-1300.html" aria-label="古窑迷踪">
+                        <div class="poster">
+                            <img src="./100.jpg" alt="古窑迷踪" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">古窑迷踪</h3>
+                            <p class="card-desc">一支纪录片团队进入废弃的宋代官窑遗址，发现每一件“出土瓷器”里都封着一只活着的眼睛。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.1</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="泰山与狩猎者" data-region="美国" data-year="2024" data-genre="动作 / 冒险 / 生态惊悚" data-tags="丛林法则 反盗猎 野生救援 宿敌和解" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-1312.html" aria-label="泰山与狩猎者">
+                        <div class="poster">
+                            <img src="./112.jpg" alt="泰山与狩猎者" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">泰山与狩猎者</h3>
+                            <p class="card-desc">传奇丛林之子的领地，来了一群用无人机猎杀濒危动物的未来赏金猎人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="伦敦生活" data-region="英国" data-year="2016" data-genre="剧情 / 喜剧" data-tags="黑色幽默 第四面墙 女性困境 都市孤独" data-category="热门精选" data-rating="9.5">
+                    <a href="movie-1315.html" aria-label="伦敦生活">
+                        <div class="poster">
+                            <img src="./115.jpg" alt="伦敦生活" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">伦敦生活</h3>
+                            <p class="card-desc">一个总对着镜头吐槽生活的伦敦女孩，试图修复与姐姐的关系，同时经营一家倒闭边缘的豚鼠主题咖啡馆。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.5</span>
+                                <span>2016</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="史黛拉恨史" data-region="德国" data-year="2014" data-genre="剧情， 历史， 爱情" data-tags="二战 犹太女歌手 禁忌之恋 人性拷问" data-category="热门精选" data-rating="9.1">
+                    <a href="movie-1331.html" aria-label="史黛拉恨史">
+                        <div class="poster">
+                            <img src="./131.jpg" alt="史黛拉恨史" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">史黛拉恨史</h3>
+                            <p class="card-desc">二战时期的犹太女歌手为活命被迫成为纳粹线人，她游走于集中营和盖世太保舞厅之间，爱与恨早已模糊。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.1</span>
+                                <span>2014</span>
+                                <span>德国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="外来人" data-region="美国" data-year="2025" data-genre="科幻 / 惊悚" data-tags="外星 寄生 身份疑云 心理" data-category="热门精选" data-rating="8.3">
+                    <a href="movie-1335.html" aria-label="外来人">
+                        <div class="poster">
+                            <img src="./135.jpg" alt="外来人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">外来人</h3>
+                            <p class="card-desc">一艘外星飞船坠毁在沙漠，里面没有外星人，只有一个和当地警长长得一模一样的“人”。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.3</span>
+                                <span>2025</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="凤女龙驹" data-region="中国大陆" data-year="2026" data-genre="武侠 / 冒险" data-tags="女侠 汗血宝马 丝路传奇" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-1345.html" aria-label="凤女龙驹">
+                        <div class="poster">
+                            <img src="./145.jpg" alt="凤女龙驹" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">凤女龙驹</h3>
+                            <p class="card-desc">为夺回能治愈瘟疫的汗血龙驹，前朝女镖师与西域驯马少年结盟，在丝绸之路上展开一场速度与智谋的竞速赛。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="提剑映桃花" data-region="中国大陆" data-year="2025" data-genre="古装, 武侠, 爱情" data-tags="女剑客 替身文学 江湖与朝堂" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-1350.html" aria-label="提剑映桃花">
+                        <div class="poster">
+                            <img src="./150.jpg" alt="提剑映桃花" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">提剑映桃花</h3>
+                            <p class="card-desc">天下第一女刺客被聘为相府千金的“剑术替身”，却在新婚夜发现要刺杀的新郎是自己失忆前的恋人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="古寺鹃声" data-region="中国香港" data-year="1962" data-genre="剧情/爱情/戏曲" data-tags="粤语片 落难千金 古寺重逢 凄美" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1370.html" aria-label="古寺鹃声">
+                        <div class="poster">
+                            <img src="./20.jpg" alt="古寺鹃声" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">古寺鹃声</h3>
+                            <p class="card-desc">清朝末年，落难千金被迫嫁给仇家，成亲前夜她在古寺钟声里听到已故恋人的杜鹃啼血声。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>1962</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="儿女英雄传" data-region="中国大陆" data-year="2026" data-genre="武侠， 历史， 家族" data-tags="清末 民间志士 武打" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-1385.html" aria-label="儿女英雄传">
+                        <div class="poster">
+                            <img src="./35.jpg" alt="儿女英雄传" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">儿女英雄传</h3>
+                            <p class="card-desc">甲午战争后，天津卫的孤儿寡母们，如何用血肉之躯对抗八国联军的洋枪洋炮。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="小微风的愿望" data-region="中国大陆" data-year="2024" data-genre="奇幻、治愈" data-tags="人与自然 成长 冒险 环保" data-category="热门精选" data-rating="8.0">
+                    <a href="movie-1392.html" aria-label="小微风的愿望">
+                        <div class="poster">
+                            <img src="./42.jpg" alt="小微风的愿望" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">小微风的愿望</h3>
+                            <p class="card-desc">一缕没长大的季风为了获得“成风资格证”，必须在一个月内满足一个人类女孩的三个愿望。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.0</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="丧妖集聚" data-region="泰国" data-year="2018" data-genre="恐怖 / 民俗 / 悬疑" data-tags="泰国巫术 死亡仪式 古曼童 集聚 连锁死亡" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-1413.html" aria-label="丧妖集聚">
+                        <div class="poster">
+                            <img src="./63.jpg" alt="丧妖集聚" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">丧妖集聚</h3>
+                            <p class="card-desc">泰国北部一个村庄，每年雨季最后一天，所有死于非命的丧妖会聚集在村口大榕树下，等一个活人领他们回家。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2018</span>
+                                <span>泰国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="阿尔卑斯的激情" data-region="法国 / 瑞士" data-year="2025" data-genre="爱情 / 冒险 / 运动" data-tags="高山滑雪 极限运动 禁忌之恋 雪崩救援 阿尔卑斯山" data-category="热门精选" data-rating="8.4">
+                    <a href="movie-1432.html" aria-label="阿尔卑斯的激情">
+                        <div class="poster">
+                            <img src="./82.jpg" alt="阿尔卑斯的激情" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">阿尔卑斯的激情</h3>
+                            <p class="card-desc">顶尖滑雪运动员与山地救援队女队长在阿尔卑斯最危险的雪峰上，展开一场生死与爱情的双重竞速。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.4</span>
+                                <span>2025</span>
+                                <span>法国 / 瑞士</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="傻瓜们的行进" data-region="韩国" data-year="2025" data-genre="喜剧 / 剧情 / 冒险" data-tags="智力障碍 公路电影 纯真视角 社会讽刺 温暖治愈" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-1433.html" aria-label="傻瓜们的行进">
+                        <div class="poster">
+                            <img src="./83.jpg" alt="傻瓜们的行进" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">傻瓜们的行进</h3>
+                            <p class="card-desc">福利院“傻瓜”三人组偷走院长逃跑的货车，误打误撞开始了一场送“已故朋友”回家的荒唐旅程。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2025</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="八卦拳之蓝凤凰" data-region="中国香港" data-year="2024" data-genre="武侠 / 悬疑" data-tags="女侠 江湖复仇 反转" data-category="热门精选" data-rating="7.0">
+                    <a href="movie-1475.html" aria-label="八卦拳之蓝凤凰">
+                        <div class="poster">
+                            <img src="./125.jpg" alt="八卦拳之蓝凤凰" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">八卦拳之蓝凤凰</h3>
+                            <p class="card-desc">江湖传闻蓝凤凰已死，但近期出现的蓝凤凰专杀当年围攻她的六大派掌门，并且个个穴位中都被打入一根蓝羽。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.0</span>
+                                <span>2024</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="犯罪生涯" data-region="西班牙" data-year="2020" data-genre="喜剧 / 犯罪" data-tags="伪纪录片 中年危机 黑色幽默" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-1491.html" aria-label="犯罪生涯">
+                        <div class="poster">
+                            <img src="./141.jpg" alt="犯罪生涯" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">犯罪生涯</h3>
+                            <p class="card-desc">三个被裁员的中年会计师决定用专业知识洗钱，却发现整个地下钱庄的账本比他们公司的还烂。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2020</span>
+                                <span>西班牙</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="甩皮鬼" data-region="中国香港" data-year="1992" data-genre="恐怖 / 惊悚 / 奇幻" data-tags="港式恐怖 换皮 民俗 因果报应 叶伟信早期" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-1493.html" aria-label="甩皮鬼">
+                        <div class="poster">
+                            <img src="./143.jpg" alt="甩皮鬼" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">甩皮鬼</h3>
+                            <p class="card-desc">富家千金车祸毁容后，用邪术换上妙龄少女的脸皮，却发现被换皮者的冤魂开始从内向外撕裂她的新面容。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>1992</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="其实我爱你" data-region="中国台湾" data-year="2023" data-genre="爱情 / 剧情" data-tags="暗恋成真 慢热治愈 青梅竹马" data-category="热门精选" data-rating="8.2">
+                    <a href="movie-1499.html" aria-label="其实我爱你">
+                        <div class="poster">
+                            <img src="./149.jpg" alt="其实我爱你" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">其实我爱你</h3>
+                            <p class="card-desc">暗恋闺蜜男友整整十年，她以为自己藏得天衣无缝，直到婚礼前夜，新郎给她发了一条短信：“其实我也爱你。”</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.2</span>
+                                <span>2023</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="帝皇密令" data-region="中国香港" data-year="2026" data-genre="古装 / 悬疑 / 宫廷 / 权谋" data-tags="密室杀人 夺嫡 太监 反转" data-category="热门精选" data-rating="7.9">
+                    <a href="movie-1508.html" aria-label="帝皇密令">
+                        <div class="poster">
+                            <img src="./8.jpg" alt="帝皇密令" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">帝皇密令</h3>
+                            <p class="card-desc">皇帝驾崩前留下三道密令，太子、皇子、权臣各得一道，没有一个人看到的是完整真相。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.9</span>
+                                <span>2026</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="吉他蒙古人" data-region="中国内地/蒙古" data-year="2025" data-genre="音乐/公路" data-tags="马头琴 摇滚 草原 传承" data-category="热门精选" data-rating="7.8">
+                    <a href="movie-1527.html" aria-label="吉他蒙古人">
+                        <div class="poster">
+                            <img src="./27.jpg" alt="吉他蒙古人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">吉他蒙古人</h3>
+                            <p class="card-desc">一个过气的摇滚吉他手，在内蒙古草原上遇到了一个只会拉马头琴的蒙古少年，组成了最疯狂的乐队。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.8</span>
+                                <span>2025</span>
+                                <span>中国内地/蒙古</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="我的媳妇是女王" data-region="中国大陆" data-year="2026" data-genre="喜剧、爱情" data-tags="女强男弱 创业 职场潜规则 反向逆袭" data-category="热门精选" data-rating="8.8">
+                    <a href="movie-1533.html" aria-label="我的媳妇是女王">
+                        <div class="poster">
+                            <img src="./33.jpg" alt="我的媳妇是女王" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">我的媳妇是女王</h3>
+                            <p class="card-desc">出身农村的赘婿在妻子意外成为跨国公司CEO后，被迫从幕后走到台前，上演爆笑身份错位。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.8</span>
+                                <span>2026</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="奔爱" data-region="中国大陆" data-year="2019" data-genre="爱情 / 公路" data-tags="自驾 治愈 前任" data-category="热门精选" data-rating="9.2">
+                    <a href="movie-1535.html" aria-label="奔爱">
+                        <div class="poster">
+                            <img src="./35.jpg" alt="奔爱" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">奔爱</h3>
+                            <p class="card-desc">分手三年的前任突然租下她网约车的最后一程，1600 公里，从上海开到稻城。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.2</span>
+                                <span>2019</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="蕾丝边吸你血" data-region="日本" data-year="2023" data-genre="恐怖, 爱情, 奇幻" data-tags="女同 吸血鬼 粉红电影 怪诞美学 虐恋" data-category="热门精选" data-rating="9.9">
+                    <a href="movie-1562.html" aria-label="蕾丝边吸你血">
+                        <div class="poster">
+                            <img src="./62.jpg" alt="蕾丝边吸你血" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">蕾丝边吸你血</h3>
+                            <p class="card-desc">孤独的图书馆女孩被神秘美女吸血后，发现对方永生且只吸食女性恋人的血液。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.9</span>
+                                <span>2023</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="天雷地火" data-region="中国香港 / 中国大陆" data-year="2025" data-genre="动作 / 犯罪 / 灾难" data-tags="警匪 台风 隧道" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-1571.html" aria-label="天雷地火">
+                        <div class="poster">
+                            <img src="./71.jpg" alt="天雷地火" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">天雷地火</h3>
+                            <p class="card-desc">十年一遇的超强台风登陆夜，一群悍匪与警方在一座海底隧道内引爆了一颗“炸弹”，所有人必须在海水灌满前逃出。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2025</span>
+                                <span>中国香港 / 中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="黄色大象" data-region="日本" data-year="2013" data-genre="剧情, 爱情" data-tags="治愈 婚姻 孤独 乡村生活 幻想元素" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-1618.html" aria-label="黄色大象">
+                        <div class="poster">
+                            <img src="./118.jpg" alt="黄色大象" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">黄色大象</h3>
+                            <p class="card-desc">一对年轻夫妻搬去乡下，妻子能听见动物的心事，包括一头神秘黄色大象。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2013</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="给我庇护" data-region="美国" data-year="1970" data-genre="纪录片 / 音乐" data-tags="滚石乐队 阿尔塔蒙特 垮掉的一代 悲剧 真实影像" data-category="热门精选" data-rating="8.6">
+                    <a href="movie-1620.html" aria-label="给我庇护">
+                        <div class="poster">
+                            <img src="./120.jpg" alt="给我庇护" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">给我庇护</h3>
+                            <p class="card-desc">镜头记录了滚石乐队那场本想致敬伍德斯托克的免费演唱会，却变成了一场血色谋杀案。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.6</span>
+                                <span>1970</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="非关男孩" data-region="美国" data-year="2024" data-genre="喜剧, 剧情" data-tags="单身父亲 育儿 成长" data-category="热门精选" data-rating="8.5">
+                    <a href="movie-1655.html" aria-label="非关男孩">
+                        <div class="poster">
+                            <img src="./5.jpg" alt="非关男孩" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">非关男孩</h3>
+                            <p class="card-desc">一个崇尚不婚不孩的浪荡公子哥，突然被法院告知他有一个12岁的儿子，而且儿子已经在他家门口住了三天。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.5</span>
+                                <span>2024</span>
+                                <span>美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="罗萨里奥" data-region="墨西哥" data-year="2024" data-genre="犯罪 / 悬疑 / 动作" data-tags="女毒枭 复仇 双面人生 枪战 宗教隐喻" data-category="热门精选" data-rating="9.9">
+                    <a href="movie-1664.html" aria-label="罗萨里奥">
+                        <div class="poster">
+                            <img src="./14.jpg" alt="罗萨里奥" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">罗萨里奥</h3>
+                            <p class="card-desc">白天是修女，夜晚是毒枭，她要用毒品帝国的钱来摧毁所有毒品集团。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.9</span>
+                                <span>2024</span>
+                                <span>墨西哥</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="自由神像" data-region="法国" data-year="2023" data-genre="剧情 / 历史" data-tags="移民 身份认同 自由女神 家族史" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1693.html" aria-label="自由神像">
+                        <div class="poster">
+                            <img src="./43.jpg" alt="自由神像" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">自由神像</h3>
+                            <p class="card-desc">一座复制版自由女神像，串联起一个阿尔及利亚移民家庭三代人的秘密。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2023</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="梅·马丁:原汁原味" data-region="加拿大" data-year="2024" data-genre="喜剧 / 脱口秀" data-tags="单口喜剧 女权视角 辛辣吐槽 生活观察" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1695.html" aria-label="梅·马丁:原汁原味">
+                        <div class="poster">
+                            <img src="./45.jpg" alt="梅·马丁:原汁原味" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">梅·马丁:原汁原味</h3>
+                            <p class="card-desc">鬼马少女梅·马丁用最甜美的笑容，讲最冒犯的月经和约会笑话。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2024</span>
+                                <span>加拿大</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="天真派：红楼梦之桃花诗社" data-region="中国" data-year="2024" data-genre="古装, 剧情" data-tags="全童星 红楼梦改编 唯美 青春" data-category="热门精选" data-rating="8.9">
+                    <a href="movie-1727.html" aria-label="天真派：红楼梦之桃花诗社">
+                        <div class="poster">
+                            <img src="./77.jpg" alt="天真派：红楼梦之桃花诗社" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">天真派：红楼梦之桃花诗社</h3>
+                            <p class="card-desc">大观园桃花诗社成立，十二位少女以诗为剑，在抄检大观园前夜写下最后的青春挽歌。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.9</span>
+                                <span>2024</span>
+                                <span>中国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="与你的九次相遇" data-region="韩国" data-year="2025" data-genre="奇幻 / 爱情" data-tags="时间循环 宿命 大学校园 悬疑" data-category="热门精选" data-rating="7.8">
+                    <a href="movie-1746.html" aria-label="与你的九次相遇">
+                        <div class="poster">
+                            <img src="./96.jpg" alt="与你的九次相遇" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">与你的九次相遇</h3>
+                            <p class="card-desc">为了拯救在地铁事故中死去的暗恋对象，她意外启动了时间回溯，却发现每次救下他后，彼此都会忘记对方。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.8</span>
+                                <span>2025</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="铁血一千勇士" data-region="哈萨克斯坦" data-year="2023" data-genre="动作 / 历史 / 战争" data-tags="古战场 游牧民族 以少胜多" data-category="热门精选" data-rating="8.6">
+                    <a href="movie-1770.html" aria-label="铁血一千勇士">
+                        <div class="poster">
+                            <img src="./120.jpg" alt="铁血一千勇士" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">铁血一千勇士</h3>
+                            <p class="card-desc">公元十三世纪，一千名草原勇士面对十万铁骑死守圣山，他们的武器只有马刀和比钢铁更硬的意志。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.6</span>
+                                <span>2023</span>
+                                <span>哈萨克斯坦</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="母亲的微笑" data-region="韩国" data-year="2024" data-genre="剧情 / 家庭" data-tags="阿尔茨海默症 母女 催泪 治愈" data-category="热门精选" data-rating="9.1">
+                    <a href="movie-1784.html" aria-label="母亲的微笑">
+                        <div class="poster">
+                            <img src="./134.jpg" alt="母亲的微笑" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">母亲的微笑</h3>
+                            <p class="card-desc">患上阿尔茨海默症的母亲逐渐忘记一切，却始终记得要对女儿“微笑”，女儿决定陪她重走一生。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.1</span>
+                                <span>2024</span>
+                                <span>韩国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="狂热" data-region="法国" data-year="2024" data-genre="剧情 / 心理惊悚" data-tags="粉丝文化 偶像崇拜 心理崩塌 独角戏" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1806.html" aria-label="狂热">
+                        <div class="poster">
+                            <img src="./6.jpg" alt="狂热" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">狂热</h3>
+                            <p class="card-desc">一个女粉丝混入偶像的智能公寓，发现偶像本人是她最狂热的黑粉。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2024</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="情因孽果" data-region="中国香港" data-year="2026" data-genre="剧情 / 爱情 / 犯罪" data-tags="复仇 错位 宿命 黑色电影" data-category="热门精选" data-rating="8.6">
+                    <a href="movie-1807.html" aria-label="情因孽果">
+                        <div class="poster">
+                            <img src="./7.jpg" alt="情因孽果" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">情因孽果</h3>
+                            <p class="card-desc">一个女人为亡夫复仇，精心勾引凶手并结婚，却在婚后发现自己真的爱上了他。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.6</span>
+                                <span>2026</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="天才佳人" data-region="中国大陆" data-year="2020" data-genre="爱情, 喜剧" data-tags="学霸 互换身体 高考 甜宠 校园" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-1820.html" aria-label="天才佳人">
+                        <div class="poster">
+                            <img src="./20.jpg" alt="天才佳人" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">天才佳人</h3>
+                            <p class="card-desc">女学霸和男学渣在高考前三十天互换了身体，学霸要用学渣的身体考清北，学渣要用学霸的身体谈恋爱。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2020</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="一屋两家三姓人粤语" data-region="中国香港" data-year="2004" data-genre="喜剧 / 家庭 / 剧情" data-tags="家庭 重组 温情 邻里" data-category="热门精选" data-rating="9.6">
+                    <a href="movie-1827.html" aria-label="一屋两家三姓人粤语">
+                        <div class="poster">
+                            <img src="./27.jpg" alt="一屋两家三姓人粤语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">一屋两家三姓人粤语</h3>
+                            <p class="card-desc">一栋旧楼里，房东、租客和流浪汉三个不同姓氏的家庭被迫生活在一起，从鸡飞狗跳到亲如一家。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.6</span>
+                                <span>2004</span>
+                                <span>中国香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="德黑兰人间传奇" data-region="伊朗" data-year="2025" data-genre="剧情 / 社会 / 悬疑" data-tags="地下经济 女性 出租车 城市故事" data-category="热门精选" data-rating="9.3">
+                    <a href="movie-1828.html" aria-label="德黑兰人间传奇">
+                        <div class="poster">
+                            <img src="./28.jpg" alt="德黑兰人间传奇" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">德黑兰人间传奇</h3>
+                            <p class="card-desc">一位伊朗女出租车司机在德黑兰的深夜，用她的后座串联起这座禁忌之城的众生百态与地下秘密。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.3</span>
+                                <span>2025</span>
+                                <span>伊朗</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="阿姐响叮当" data-region="新加坡" data-year="2025" data-genre="家庭喜剧" data-tags="姐妹 养老 亲情 搞笑 治愈" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-1844.html" aria-label="阿姐响叮当">
+                        <div class="poster">
+                            <img src="./44.jpg" alt="阿姐响叮当" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">阿姐响叮当</h3>
+                            <p class="card-desc">三个性格迥异的姐姐被迫回家照顾“假装失忆”的老妈，展开了一场斗智斗勇的爆笑养老战。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2025</span>
+                                <span>新加坡</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="糊涂贼大闹乌龙堡" data-region="中国大陆" data-year="2024" data-genre="喜剧 / 动作" data-tags="笨贼 古堡 机关 爆笑 反转" data-category="热门精选" data-rating="7.6">
+                    <a href="movie-1849.html" aria-label="糊涂贼大闹乌龙堡">
+                        <div class="poster">
+                            <img src="./49.jpg" alt="糊涂贼大闹乌龙堡" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">糊涂贼大闹乌龙堡</h3>
+                            <p class="card-desc">三个菜鸟小偷夜闯神秘古堡，却误入“笨贼培训班”终极考试现场。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.6</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="新抱喜相逢粤语" data-region="香港" data-year="2024" data-genre="家庭 / 喜剧" data-tags="婆媳 方言剧 市井温情 饮食文化" data-category="热门精选" data-rating="7.3">
+                    <a href="movie-1878.html" aria-label="新抱喜相逢粤语">
+                        <div class="poster">
+                            <img src="./78.jpg" alt="新抱喜相逢粤语" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">新抱喜相逢粤语</h3>
+                            <p class="card-desc">广州媳妇嫁入香港婆家，因煲汤方式不同引爆家庭大战，最后靠一碗老火靓汤拯救了一栋楼的邻里关系。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.3</span>
+                                <span>2024</span>
+                                <span>香港</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="踉跄的女孩" data-region="英国" data-year="2020" data-genre="惊悚" data-tags="精神分裂 心理 悬疑" data-category="热门精选" data-rating="7.6">
+                    <a href="movie-1884.html" aria-label="踉跄的女孩">
+                        <div class="poster">
+                            <img src="./84.jpg" alt="踉跄的女孩" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">踉跄的女孩</h3>
+                            <p class="card-desc">一位患有严重眩晕症的女孩，在公寓里目睹了对面大楼的一起谋杀案，但所有人都因为她走路不稳而认为她产生了幻觉。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.6</span>
+                                <span>2020</span>
+                                <span>英国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="你，我和他" data-region="中国台湾" data-year="2017" data-genre="爱情 / 同性 / 家庭" data-tags="台剧 同性情感 三角关系 治愈 开放式结局" data-category="热门精选" data-rating="8.1">
+                    <a href="movie-1898.html" aria-label="你，我和他">
+                        <div class="poster">
+                            <img src="./98.jpg" alt="你，我和他" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">你，我和他</h3>
+                            <p class="card-desc">一对同居的男同志情侣，因为一个意外闯入的失忆女孩，被迫重新审视彼此之间早已千疮百孔的关系。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.1</span>
+                                <span>2017</span>
+                                <span>中国台湾</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="六木道长" data-region="中国大陆" data-year="2023" data-genre="奇幻 / 动作 / 喜剧" data-tags="道士 丧尸 湘西赶尸 民俗恐怖" data-category="热门精选" data-rating="7.5">
+                    <a href="movie-1911.html" aria-label="六木道长">
+                        <div class="poster">
+                            <img src="./111.jpg" alt="六木道长" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">六木道长</h3>
+                            <p class="card-desc">湘西赶尸世家末裔“六木道长”被师父坑去押送一具“棺材”，结果里面躺着的是一个百年前封印失败的女尸王。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.5</span>
+                                <span>2023</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="女巫2024" data-region="英国 / 美国" data-year="2024" data-genre="恐怖 / 历史 / 女性" data-tags="猎巫运动 报复 女权" data-category="热门精选" data-rating="9.0">
+                    <a href="movie-1932.html" aria-label="女巫2024">
+                        <div class="poster">
+                            <img src="./132.jpg" alt="女巫2024" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">女巫2024</h3>
+                            <p class="card-desc">2024年，一个被诬陷为女巫的女孩穿越回17世纪，却发现当年的“女巫”全是现代人。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.0</span>
+                                <span>2024</span>
+                                <span>英国 / 美国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="女王蜂游戏" data-region="日本" data-year="2024" data-genre="悬疑奇幻" data-tags="大逃杀 女性群像 心理博弈 社会隐喻" data-category="热门精选" data-rating="9.4">
+                    <a href="movie-1934.html" aria-label="女王蜂游戏">
+                        <div class="poster">
+                            <img src="./134.jpg" alt="女王蜂游戏" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">女王蜂游戏</h3>
+                            <p class="card-desc">十二个“最不受欢迎”的女生被关进私立女校，只有最后的“女王蜂”可以活着毕业。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 9.4</span>
+                                <span>2024</span>
+                                <span>日本</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="童女贞德" data-region="法国" data-year="2024" data-genre="历史，剧情，奇幻" data-tags="圣女 战争 神谕 少女 信仰" data-category="热门精选" data-rating="7.7">
+                    <a href="movie-1945.html" aria-label="童女贞德">
+                        <div class="poster">
+                            <img src="./145.jpg" alt="童女贞德" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">童女贞德</h3>
+                            <p class="card-desc">农家少女贞德在神谕中看见火焰与利剑，却没人相信那来自一个六岁女孩的幻想。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.7</span>
+                                <span>2024</span>
+                                <span>法国</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="七仙女外传" data-region="中国大陆" data-year="2025" data-genre="奇幻 / 古装 / 喜剧" data-tags="神话改编 女力觉醒 反内卷" data-category="热门精选" data-rating="8.7">
+                    <a href="movie-1948.html" aria-label="七仙女外传">
+                        <div class="poster">
+                            <img src="./148.jpg" alt="七仙女外传" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">七仙女外传</h3>
+                            <p class="card-desc">天庭裁员，七仙女下界再就业，却发现凡间比天宫还卷，于是她们开了一家专门帮神仙打工人维权的公司。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 8.7</span>
+                                <span>2025</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="片警宝音" data-region="中国大陆" data-year="2018" data-genre="剧情、纪实" data-tags="基层民警 内蒙古 平凡英雄 真实改编" data-category="热门精选" data-rating="7.4">
+                    <a href="movie-1967.html" aria-label="片警宝音">
+                        <div class="poster">
+                            <img src="./17.jpg" alt="片警宝音" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">片警宝音</h3>
+                            <p class="card-desc">内蒙古乌拉特草原上，片警宝音骑着摩托车守护着1672平方公里内的牧民，直到一场走私案打破宁静。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.4</span>
+                                <span>2018</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="乘风破浪" data-region="中国大陆" data-year="2017" data-genre="喜剧" data-tags="穿越 父子 赛车 兄弟情" data-category="热门精选" data-rating="7.8">
+                    <a href="movie-1972.html" aria-label="乘风破浪">
+                        <div class="poster">
+                            <img src="./22.jpg" alt="乘风破浪" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">乘风破浪</h3>
+                            <p class="card-desc">赛车手阿浪意外穿越回父亲年轻时代，与中二老爸成了拜把子兄弟。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.8</span>
+                                <span>2017</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card" data-filter-card data-title="红色背篓" data-region="中国大陆" data-year="2024" data-genre="剧情, 年代, 乡村" data-tags="脱贫攻坚 供销社 父子和解 山路" data-category="热门精选" data-rating="7.1">
+                    <a href="movie-1992.html" aria-label="红色背篓">
+                        <div class="poster">
+                            <img src="./42.jpg" alt="红色背篓" loading="lazy">
+                            <span class="play-chip">▶</span>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">红色背篓</h3>
+                            <p class="card-desc">90年代的大山里，叛逆的儿子继承了父亲背了一辈子的红色供销背篓，走上了截然不同的带货之路。</p>
+                            <div class="meta-row">
+                                <span class="badge gold">★ 7.1</span>
+                                <span>2024</span>
+                                <span>中国大陆</span>
+                                <span class="badge">热门精选</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                </div>
+                <div class="empty-state" id="category-empty-hot-picks">没有找到匹配的影片</div>
+            </section>
+            <section class="section">
+                <div class="section-head">
+                    <div>
+                        <p class="page-kicker">更多入口</p>
+                        <h2 class="section-title">继续浏览其他分类</h2>
+                    </div>
+                </div>
+                <div class="tag-list">
+                    <a class="tag" href="category-high-score.html">高分片库</a>
+                    <a class="tag" href="category-new-release.html">新片速递</a>
+                    <a class="tag" href="category-classic-cinema.html">经典电影</a>
+                    <a class="tag" href="category-action-zone.html">动作大片</a>
+                    <a class="tag" href="category-romance-story.html">爱情故事</a>
+                    <a class="tag" href="category-mystery-thriller.html">悬疑惊悚</a>
+                    <a class="tag" href="category-comedy-time.html">喜剧时光</a>
+                    <a class="tag" href="category-sci-fi-fantasy.html">科幻奇幻</a>
+                    <a class="tag" href="category-drama-life.html">文艺剧情</a>
+                    <a class="tag" href="category-family-animation.html">家庭动画</a>
+                    <a class="tag" href="category-world-cinema.html">环球影展</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <p class="footer-title">精选电影</p>
+                    <p class="footer-text">精选多类型电影内容，覆盖热门片库、高分片单、清晰分类与在线播放体验。</p>
+                </div>
+                <div>
+                    <p class="footer-title">片库入口</p>
+                    <div class="footer-links">
+                        <a href="index.html">首页推荐</a>
+                        <a href="categories.html">分类总览</a>
+                        <a href="ranking.html">热门排行</a>
+                    </div>
+                </div>
+                <div>
+                    <p class="footer-title">精选分类</p>
+                    <div class="footer-links">
+                        <a href="category-hot-picks.html">热门精选</a>
+                        <a href="category-high-score.html">高分片库</a>
+                        <a href="category-new-release.html">新片速递</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">精选电影 · 高清电影片库 · 热门片单与分类浏览</div>
+        </div>
+    </footer>
+    <script src="assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
